@@ -1,3 +1,5 @@
+from time import sleep
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -20,4 +22,8 @@ class TestMember:
         self.driver.quit()
 
     def test_addmember(self):
-        self.main.goto_add_member().addmember()
+        # self.main.goto_add_member().addmember()
+        add_member = self.main.goto_add_member()
+        add_member.addmember()
+
+        # assert "张三" in add_member.get_member()

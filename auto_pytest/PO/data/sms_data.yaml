@@ -1,0 +1,17 @@
+﻿test_sms:
+  test_sms_001:
+    phone_number: "1340990323"
+    num: "1"
+    content: "中阿斯顿"
+  test_sms_002:
+    phone_number: "987654567890"
+    num: "2"
+    content: "confirm"
+  test_sms_003:
+    phone_number: "1235654322"
+    num: "3"
+    content: "nice"
+  test_sms_004:
+    phone_number: "1235"
+    num: "4"
+    content: "中华人民共和国"

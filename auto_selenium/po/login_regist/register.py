@@ -42,10 +42,10 @@ class Register:
                 el2.click()
 
                 # 管理员姓名
-                self.driver.find_element(By.ID, "manager_name").send_keys("蒲志琴")
+                self.driver.find_element(By.ID, "manager_name").send_keys("杨波")
                 # 管理员手机号
                 # 19162856749
-                self.driver.find_element(By.CSS_SELECTOR, ".ww_compatibleTxt_ipt").send_keys("13404038100")
+                self.driver.find_element(By.CSS_SELECTOR, ".ww_compatibleTxt_ipt").send_keys("17725164546")
                 # 获取验证码
                 self.driver.find_element(By.ID, "get_vcode").click()
                 # 输入验证码
